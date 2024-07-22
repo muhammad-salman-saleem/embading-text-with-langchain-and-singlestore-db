@@ -1,6 +1,6 @@
 import OpenAI from "openai";
 import axios from "axios";
-import { API_KEY, ORGANIZATION_KEY } from "./constent";
+import { API_KEY, ORGANIZATION_KEY } from "./constent.js";
 
 const ORGANIZATION_KEY = ORGANIZATION_KEY;
 const API_KEY = API_KEY;

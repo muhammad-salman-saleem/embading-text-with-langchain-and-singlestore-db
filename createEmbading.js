@@ -1,4 +1,4 @@
-import { API_KEY } from "./constent";
+import { API_KEY } from "./constent.js";
 
 const openAiHeader={
   'Content-Type': 'application/json',

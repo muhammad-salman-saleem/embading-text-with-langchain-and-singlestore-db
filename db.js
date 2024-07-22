@@ -1,5 +1,5 @@
 import mysql from "mysql2/promise";
-import { DB_DATABASE, DB_HOST, DB_PASSWORD, DB_USER } from "./constent";
+import { DB_DATABASE, DB_HOST, DB_PASSWORD, DB_USER } from "./constent.js";
 
 const HOST =DB_HOST;
 const USER = DB_USER;
