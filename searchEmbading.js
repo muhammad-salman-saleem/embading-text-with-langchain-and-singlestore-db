@@ -21,7 +21,7 @@ const searchComments = async (connection, text) => {
 
 const main = async () => {
   const connection = await dbConnect();
-  const text="management application, with diagramm, capital"
+  const text="Please make the  playlist on Figma templatre designe"
   try {
     const searchResults = await searchComments(connection, text);
     console.log("Search results:", searchResults);
